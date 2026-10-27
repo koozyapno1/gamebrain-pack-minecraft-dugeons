@@ -1,0 +1,785 @@
+{
+ "game": "DUNGEONS COMMAND CENTRE",
+ "subtitle": "Minecraft Dungeons - Jungle Awakens DLC",
+ "sources": {
+  "reference": [
+   "minecraft.wiki",
+   "game8.co (Minecraft Dungeons)"
+  ],
+  "videos": "Real YouTube guide videos, harvested with yt-dlp on gpu-server (Oct 2026). Video titles, authors and links are the original creators'."
+ },
+ "entities": [
+  {
+   "name": "Getting Started",
+   "kind": "Topic",
+   "description": "How to begin a Dungeons run - picking a class, gear and a dungeon.",
+   "tips": [
+    "Pick your class before the run - Ranger and Fighter are the easiest starts.",
+    "Start with the first dungeon and its Captured Mosaic to unlock the shop.",
+    "Always take the free daily rewards - the Merchant's Guild gives gear and gold.",
+    "Do not spend gold on weapons until you have armour for the level you are on.",
+    "The Ancient Hunts are the endgame loop - run them once you have a Unique or Epic."
+   ],
+   "difficulty": "Easy",
+   "videos": [
+    "tpOm7N_PY1Q",
+    "HuZS9rbVspM",
+    "zIFWmsNPu54"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "getting started",
+    "beginner",
+    "beginners",
+    "how to start",
+    "first steps",
+    "new player",
+    "tutorial"
+   ]
+  },
+  {
+   "name": "Classes",
+   "kind": "Topic",
+   "description": "Five classes, each with a different role and starting gear.",
+   "tips": [
+    "Ranger - ranged bow user, good at kiting. Easiest class for beginners.",
+    "Fighter - melee with a sword and a shield, high survivability and a roll attack.",
+    "Rogue - melee with daggers and a smoke bomb, the highest damage and the squishiest.",
+    "Mage - ranged magic, the highest damage but the weakest defence.",
+    "Warlock - summons devils that fight for you and draw aggro.",
+    "The class changes your weapons - a Rogue cannot use a bow well and a Mage is poor with a sword."
+   ],
+   "difficulty": "Low",
+   "videos": [
+    "QhNoWgkDLGs",
+    "0YiQjbSU9Xk",
+    "ZXcwHPW3GR8"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "classes",
+    "class",
+    "ranger",
+    "fighter",
+    "rogue",
+    "mage",
+    "warlock",
+    "which class"
+   ]
+  },
+  {
+   "name": "Weapons",
+   "kind": "Topic",
+   "description": "The weapon pool, their melee and ranged stats, and how rarity affects them.",
+   "tips": [
+    "Rarity order is Common, Uncommon, Rare, Epic, Unique - the higher the rarity the better the damage and the more sockets.",
+    "Weapon damage scales with the dungeon level - upgrade before moving up a level.",
+    "Melee and ranged are separate stats - a weapon can be great at one and poor at the other.",
+    "Sockets let you roll the enchantments you want - the fastest way to a build.",
+    "Do not buy from the Merchant before you have found better - the merchant prices are steep."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "HuZS9rbVspM",
+    "bs1yW3QrjOc",
+    "yPtqSeBGDOo"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "weapons",
+    "weapon",
+    "sword",
+    "bow",
+    "weapon stats",
+    "best weapon"
+   ]
+  },
+  {
+   "name": "Armor",
+   "kind": "Topic",
+   "description": "Armour pieces, their sockets and the enchantments worth chasing.",
+   "tips": [
+    "Armour has three sockets, and the higher the rarity the better the socket roll.",
+    "Protection enchantment reduces incoming damage - the most important stat for a beginner.",
+    " Thorns damage reflects damage back at attackers - strong on tanks.",
+    "Soul Speed, Swift Sneak and other movement enchantments are the best filler.",
+    "The enchantment table lets you re-roll a socket - farm gold to use it."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "9Xr7UNr6V-0",
+    "uGkoWpb-6B4",
+    "yglJQpinLAk"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "armor",
+    "armour",
+    "armour pieces",
+    "enchantments",
+    "protection",
+    "thorns",
+    "sockets",
+    "best armor"
+   ]
+  },
+  {
+   "name": "Caves",
+   "kind": "Topic",
+   "description": "The levels you play through - standard levels, jungle levels and the endless arena.",
+   "tips": [
+    "Each level has a Captured Mosaic to collect - get all three and the level is cleared.",
+    "Jungle Awakens added jungle levels with new enemies and new loot.",
+    "The Ancient Hunts are the repeatable endgame mode with a difficulty scale.",
+    "Farm the levels you have cleared - difficulty scales and so do the drops.",
+    "Do the free-standing secret arenas for the free loot and the extra chests."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "Um1EGwyqAVI",
+    "-TjlgQu2P_o",
+    "JxkCyRco9Ls"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "caves",
+    "levels",
+    "dungeon levels",
+    "jungle levels",
+    "ancient hunts",
+    "level progression",
+    "captured mosaic"
+   ]
+  },
+  {
+   "name": "Bosses",
+   "kind": "Topic",
+   "description": "The bosses of each biome and how to beat them.",
+   "tips": [
+    "Each boss has a clear pattern - learn the attack and the counter.",
+    "Arch Illager fires arrows that you can dodge by moving off the line.",
+    "The Jungle Awakens bosses have new mechanics - watch the ground and the summons.",
+    "Use the potion of healing between phases rather than trying to tank everything.",
+    "Bosses drop the best gear for that biome - farm them for Unique items."
+   ],
+   "difficulty": "Hard",
+   "videos": [
+    "9JSDdUpbCA0",
+    "p-lKoX0foY0",
+    "6K0cDeRf-fE"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "bosses",
+    "boss",
+    "boss fight",
+    "arch illager",
+    "how to beat bosses"
+   ]
+  },
+  {
+   "name": "Redstone",
+   "kind": "Topic",
+   "description": "Redstone farms for gold, xp and uniques.",
+   "tips": [
+    "Redstone Mines has the classic farm routes for gold and emerald farming.",
+    "Gold from the mines levels up your enchantment table - farm it early.",
+    "The farm in the Ancient Hunt gives uniques - run it repeatedly.",
+    "Gold summons the Enchantment Table merchant - spend gold on re-rolling sockets.",
+    "Farm with the right class - a Ranger can shoot the farm from a safe distance."
+   ],
+   "difficulty": "Hard",
+   "videos": [
+    "38UQPUGywvA",
+    "1BxQaQqPaPM",
+    "x1Ye2MI54Lk"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "redstone",
+    "redstone farm",
+    "gold farm",
+    "xp farm",
+    "farming guide",
+    "enchantment table",
+    "where to farm uniques",
+    "farm uniques",
+    "farming uniques",
+    "gold farming"
+   ]
+  },
+  {
+   "name": "Mobs",
+   "kind": "Topic",
+   "description": "The enemy roster and which ones are dangerous.",
+   "tips": [
+    "Zombies, skeletons and creepers appear in the Overworld levels - creepers are the nuisance, they explode at close range.",
+    "The Jungle Awakens added new jungle mobs - some can be very dangerous in groups.",
+    "Archers shoot from range - use a shield or roll through the shot.",
+    "Blaze mobs and ranged enemies punish standing still.",
+    "Pull one enemy at a time - a group at once is how runs end early."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "x1Ye2MI54Lk",
+    "v7B11Vmf0u0",
+    "rtY8fSbMLCE"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "mobs",
+    "mob",
+    "enemies",
+    "creeper",
+    "skeleton",
+    "zombie",
+    "jungle mobs"
+   ]
+  }
+ ],
+ "tips": [
+  {
+   "topic": "Getting Started",
+   "detail": "1. Pick your class before the run - Ranger and Fighter are the easiest starts.",
+   "step": 1
+  },
+  {
+   "topic": "Getting Started",
+   "detail": "2. Start with the first dungeon and its Captured Mosaic to unlock the shop.",
+   "step": 2
+  },
+  {
+   "topic": "Getting Started",
+   "detail": "3. Always take the free daily rewards - the Merchant's Guild gives gear and gold.",
+   "step": 3
+  },
+  {
+   "topic": "Getting Started",
+   "detail": "4. Do not spend gold on weapons until you have armour for the level you are on.",
+   "step": 4
+  },
+  {
+   "topic": "Getting Started",
+   "detail": "5. The Ancient Hunts are the endgame loop - run them once you have a Unique or Epic.",
+   "step": 5
+  },
+  {
+   "topic": "Classes",
+   "detail": "1. Ranger - ranged bow user, good at kiting. Easiest class for beginners.",
+   "step": 1
+  },
+  {
+   "topic": "Classes",
+   "detail": "2. Fighter - melee with a sword and a shield, high survivability and a roll attack.",
+   "step": 2
+  },
+  {
+   "topic": "Classes",
+   "detail": "3. Rogue - melee with daggers and a smoke bomb, the highest damage and the squishiest.",
+   "step": 3
+  },
+  {
+   "topic": "Classes",
+   "detail": "4. Mage - ranged magic, the highest damage but the weakest defence.",
+   "step": 4
+  },
+  {
+   "topic": "Classes",
+   "detail": "5. Warlock - summons devils that fight for you and draw aggro.",
+   "step": 5
+  },
+  {
+   "topic": "Classes",
+   "detail": "6. The class changes your weapons - a Rogue cannot use a bow well and a Mage is poor with a sword.",
+   "step": 6
+  },
+  {
+   "topic": "Weapons",
+   "detail": "1. Rarity order is Common, Uncommon, Rare, Epic, Unique - the higher the rarity the better the damage and the more sockets.",
+   "step": 1
+  },
+  {
+   "topic": "Weapons",
+   "detail": "2. Weapon damage scales with the dungeon level - upgrade before moving up a level.",
+   "step": 2
+  },
+  {
+   "topic": "Weapons",
+   "detail": "3. Melee and ranged are separate stats - a weapon can be great at one and poor at the other.",
+   "step": 3
+  },
+  {
+   "topic": "Weapons",
+   "detail": "4. Sockets let you roll the enchantments you want - the fastest way to a build.",
+   "step": 4
+  },
+  {
+   "topic": "Weapons",
+   "detail": "5. Do not buy from the Merchant before you have found better - the merchant prices are steep.",
+   "step": 5
+  },
+  {
+   "topic": "Armor",
+   "detail": "1. Armour has three sockets, and the higher the rarity the better the socket roll.",
+   "step": 1
+  },
+  {
+   "topic": "Armor",
+   "detail": "2. Protection enchantment reduces incoming damage - the most important stat for a beginner.",
+   "step": 2
+  },
+  {
+   "topic": "Armor",
+   "detail": "3.  Thorns damage reflects damage back at attackers - strong on tanks.",
+   "step": 3
+  },
+  {
+   "topic": "Armor",
+   "detail": "4. Soul Speed, Swift Sneak and other movement enchantments are the best filler.",
+   "step": 4
+  },
+  {
+   "topic": "Armor",
+   "detail": "5. The enchantment table lets you re-roll a socket - farm gold to use it.",
+   "step": 5
+  },
+  {
+   "topic": "Caves",
+   "detail": "1. Each level has a Captured Mosaic to collect - get all three and the level is cleared.",
+   "step": 1
+  },
+  {
+   "topic": "Caves",
+   "detail": "2. Jungle Awakens added jungle levels with new enemies and new loot.",
+   "step": 2
+  },
+  {
+   "topic": "Caves",
+   "detail": "3. The Ancient Hunts are the repeatable endgame mode with a difficulty scale.",
+   "step": 3
+  },
+  {
+   "topic": "Caves",
+   "detail": "4. Farm the levels you have cleared - difficulty scales and so do the drops.",
+   "step": 4
+  },
+  {
+   "topic": "Caves",
+   "detail": "5. Do the free-standing secret arenas for the free loot and the extra chests.",
+   "step": 5
+  },
+  {
+   "topic": "Bosses",
+   "detail": "1. Each boss has a clear pattern - learn the attack and the counter.",
+   "step": 1
+  },
+  {
+   "topic": "Bosses",
+   "detail": "2. Arch Illager fires arrows that you can dodge by moving off the line.",
+   "step": 2
+  },
+  {
+   "topic": "Bosses",
+   "detail": "3. The Jungle Awakens bosses have new mechanics - watch the ground and the summons.",
+   "step": 3
+  },
+  {
+   "topic": "Bosses",
+   "detail": "4. Use the potion of healing between phases rather than trying to tank everything.",
+   "step": 4
+  },
+  {
+   "topic": "Bosses",
+   "detail": "5. Bosses drop the best gear for that biome - farm them for Unique items.",
+   "step": 5
+  },
+  {
+   "topic": "Redstone",
+   "detail": "1. Redstone Mines has the classic farm routes for gold and emerald farming.",
+   "step": 1
+  },
+  {
+   "topic": "Redstone",
+   "detail": "2. Gold from the mines levels up your enchantment table - farm it early.",
+   "step": 2
+  },
+  {
+   "topic": "Redstone",
+   "detail": "3. The farm in the Ancient Hunt gives uniques - run it repeatedly.",
+   "step": 3
+  },
+  {
+   "topic": "Redstone",
+   "detail": "4. Gold summons the Enchantment Table merchant - spend gold on re-rolling sockets.",
+   "step": 4
+  },
+  {
+   "topic": "Redstone",
+   "detail": "5. Farm with the right class - a Ranger can shoot the farm from a safe distance.",
+   "step": 5
+  },
+  {
+   "topic": "Mobs",
+   "detail": "1. Zombies, skeletons and creepers appear in the Overworld levels - creepers are the nuisance, they explode at close range.",
+   "step": 1
+  },
+  {
+   "topic": "Mobs",
+   "detail": "2. The Jungle Awakens added new jungle mobs - some can be very dangerous in groups.",
+   "step": 2
+  },
+  {
+   "topic": "Mobs",
+   "detail": "3. Archers shoot from range - use a shield or roll through the shot.",
+   "step": 3
+  },
+  {
+   "topic": "Mobs",
+   "detail": "4. Blaze mobs and ranged enemies punish standing still.",
+   "step": 4
+  },
+  {
+   "topic": "Mobs",
+   "detail": "5. Pull one enemy at a time - a group at once is how runs end early.",
+   "step": 5
+  }
+ ],
+ "videos": [
+  {
+   "id": "tpOm7N_PY1Q",
+   "title": "Beginners guide to Minecraft dungeons",
+   "author": "The Jack Of All Trades",
+   "url": "https://www.youtube.com/watch?v=tpOm7N_PY1Q",
+   "scope": "Getting Started guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Getting Started"
+  },
+  {
+   "id": "HuZS9rbVspM",
+   "title": "The ULTIMATE BEGINNERS GUIDE To Minecraft Dungeons",
+   "author": "Mattitude",
+   "url": "https://www.youtube.com/watch?v=HuZS9rbVspM",
+   "scope": "Getting Started guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Getting Started"
+  },
+  {
+   "id": "zIFWmsNPu54",
+   "title": "Should You Get Minecraft Dungeons in 2026?",
+   "author": "The Dungeon Fish",
+   "url": "https://www.youtube.com/watch?v=zIFWmsNPu54",
+   "scope": "Getting Started guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Getting Started"
+  },
+  {
+   "id": "QhNoWgkDLGs",
+   "title": "I Survived 100 Days As An ELDRITCH KNIGHT In Otherworld DnD",
+   "author": "ElAbro",
+   "url": "https://www.youtube.com/watch?v=QhNoWgkDLGs",
+   "scope": "Classes guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Classes"
+  },
+  {
+   "id": "0YiQjbSU9Xk",
+   "title": "2 MILLION DAMAGE in Minecraft Dungeons 2 (Best OP Build)",
+   "author": "Pitcch",
+   "url": "https://www.youtube.com/watch?v=0YiQjbSU9Xk",
+   "scope": "Classes guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Classes"
+  },
+  {
+   "id": "ZXcwHPW3GR8",
+   "title": "How DM's react to what Class you play in Dungeons and Dragons",
+   "author": "One Shot Questers",
+   "url": "https://www.youtube.com/watch?v=ZXcwHPW3GR8",
+   "scope": "Classes guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Classes"
+  },
+  {
+   "id": "HuZS9rbVspM",
+   "title": "The ULTIMATE BEGINNERS GUIDE To Minecraft Dungeons",
+   "author": "Mattitude",
+   "url": "https://www.youtube.com/watch?v=HuZS9rbVspM",
+   "scope": "Weapons guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Weapons"
+  },
+  {
+   "id": "bs1yW3QrjOc",
+   "title": "EVERY Melee Weapon in Minecraft Dungeons!",
+   "author": "The Dungeon Fish",
+   "url": "https://www.youtube.com/watch?v=bs1yW3QrjOc",
+   "scope": "Weapons guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Weapons"
+  },
+  {
+   "id": "yPtqSeBGDOo",
+   "title": "How To Get The Best Loot In Minecraft Dungeons",
+   "author": "Prahant Gaming",
+   "url": "https://www.youtube.com/watch?v=yPtqSeBGDOo",
+   "scope": "Weapons guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Weapons"
+  },
+  {
+   "id": "9Xr7UNr6V-0",
+   "title": "ALL 32 Enchantments In Minecraft Dungeons 2 RANKED! - [MCD2]",
+   "author": "Zanith",
+   "url": "https://www.youtube.com/watch?v=9Xr7UNr6V-0",
+   "scope": "Armor guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Armor"
+  },
+  {
+   "id": "uGkoWpb-6B4",
+   "title": "How to reroll the enchantsmith for free minecraft dungeons",
+   "author": "Dead Zpikes",
+   "url": "https://www.youtube.com/watch?v=uGkoWpb-6B4",
+   "scope": "Armor guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Armor"
+  },
+  {
+   "id": "yglJQpinLAk",
+   "title": "THE BEST ARMOR IN MINECRAFT DUNGEONS?! Top Tier Armor & Best Enchantments Breakdown",
+   "author": "04AM",
+   "url": "https://www.youtube.com/watch?v=yglJQpinLAk",
+   "scope": "Armor guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Armor"
+  },
+  {
+   "id": "Um1EGwyqAVI",
+   "title": "Jungle Abomination BOSS GUIDE | Minecraft Dungeons Jungle Awakens DLC",
+   "author": "Legacy Gaming",
+   "url": "https://www.youtube.com/watch?v=Um1EGwyqAVI",
+   "scope": "Caves guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Caves"
+  },
+  {
+   "id": "-TjlgQu2P_o",
+   "title": "Minecraft Dungeons - Treetop Tangle Mission Full Level Walkthrough",
+   "author": "BrosClanYt",
+   "url": "https://www.youtube.com/watch?v=-TjlgQu2P_o",
+   "scope": "Caves guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Caves"
+  },
+  {
+   "id": "JxkCyRco9Ls",
+   "title": "New Minecraft Dungeons Jungle Levels",
+   "author": "CaptainSparklez",
+   "url": "https://www.youtube.com/watch?v=JxkCyRco9Ls",
+   "scope": "Caves guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Caves"
+  },
+  {
+   "id": "9JSDdUpbCA0",
+   "title": "5 WAYS TO DESTROY BOSSES - ONE HIT KILL Guide For Max Apocalypse Plus in Minecraft Dungeons",
+   "author": "04AM",
+   "url": "https://www.youtube.com/watch?v=9JSDdUpbCA0",
+   "scope": "Bosses guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Bosses"
+  },
+  {
+   "id": "p-lKoX0foY0",
+   "title": "EASY How To Defeat The Final Boss - Arch Illager (Any Difficulty) in Minecraft Dungeons",
+   "author": "04AM",
+   "url": "https://www.youtube.com/watch?v=p-lKoX0foY0",
+   "scope": "Bosses guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Bosses"
+  },
+  {
+   "id": "6K0cDeRf-fE",
+   "title": "How to Beat EVERY Boss in Minecraft Dungeons",
+   "author": "Dungeon Crawlers - Minecraft Dungeons",
+   "url": "https://www.youtube.com/watch?v=6K0cDeRf-fE",
+   "scope": "Bosses guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Bosses"
+  },
+  {
+   "id": "38UQPUGywvA",
+   "title": "Minecraft Dungeons - Redstone Mines - Unique farming guide",
+   "author": "Elegant Devil",
+   "url": "https://www.youtube.com/watch?v=38UQPUGywvA",
+   "scope": "Redstone guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Redstone"
+  },
+  {
+   "id": "1BxQaQqPaPM",
+   "title": "How To 10X Your Damage! (Best Artifacts) & Farming Guide • Minecraft Dungeons 2",
+   "author": "Dear Gamer",
+   "url": "https://www.youtube.com/watch?v=1BxQaQqPaPM",
+   "scope": "Redstone guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Redstone"
+  },
+  {
+   "id": "x1Ye2MI54Lk",
+   "title": "How To FARM EVERYTHING In Minecraft Dungeons 2! (Uniques, Bosses, Echo Shards, Items & More!)",
+   "author": "silentwisperer",
+   "url": "https://www.youtube.com/watch?v=x1Ye2MI54Lk",
+   "scope": "Redstone guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Redstone"
+  },
+  {
+   "id": "x1Ye2MI54Lk",
+   "title": "How To FARM EVERYTHING In Minecraft Dungeons 2! (Uniques, Bosses, Echo Shards, Items & More!)",
+   "author": "silentwisperer",
+   "url": "https://www.youtube.com/watch?v=x1Ye2MI54Lk",
+   "scope": "Mobs guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Mobs"
+  },
+  {
+   "id": "v7B11Vmf0u0",
+   "title": "ANCIENT HUNTS GUIDE - Gilded Gear & Gold Farming Basics in Minecraft Dungeons",
+   "author": "04AM",
+   "url": "https://www.youtube.com/watch?v=v7B11Vmf0u0",
+   "scope": "Mobs guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Mobs"
+  },
+  {
+   "id": "rtY8fSbMLCE",
+   "title": "5 ESSENTIAL Tips for Minecraft Dungeons 2 You NEED to Know!",
+   "author": "Mobalytics",
+   "url": "https://www.youtube.com/watch?v=rtY8fSbMLCE",
+   "scope": "Mobs guide",
+   "tags": [
+    "minecraft-dugeons",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Mobs"
+  }
+ ]
+}

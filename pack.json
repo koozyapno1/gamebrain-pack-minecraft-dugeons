@@ -1,0 +1,181 @@
+{
+ "id": "minecraft-dugeons",
+ "name": "DUNGEONS COMMAND CENTRE",
+ "subtitle": "Minecraft Dungeons - Jungle Awakens DLC",
+ "version": "1.0.0",
+ "kb": "kb.json",
+ "ui": {
+  "brand_title": "DUNGEONS COMMAND CENTRE",
+  "brand_subtitle": "Minecraft Dungeons - Jungle Awakens DLC",
+  "grid_title": "Level Grid",
+  "grid_question": "What is in {sector}?",
+  "cols": 8,
+  "rows": 9
+ },
+ "quick_prompts": [
+  "Which class should I pick as a beginner?",
+  "What is the best armour?",
+  "How do I beat the bosses?",
+  "Where do I farm uniques?",
+  "How do I set up a redstone farm?"
+ ],
+ "known_facts": [
+  "Minecraft Dungeons is a top-down action RPG set in the Minecraft world, played solo or in co-op.",
+  "There are five classes: Ranger, Fighter, Rogue, Mage and Warlock (added later).",
+  "The Jungle Awakens DLC added the Jungle biome, the Jungle Awakens missions and new unique gear.",
+  "Equipment has rarity tiers: Common, Uncommon, Rare, Epic and Unique, plus artifacts from the Ancient Hunts.",
+  "Artifacts are the strongest gear and come from the Ancient Hunts - a repeatable boss mode."
+ ],
+ "entity_words": [
+  "dungeons",
+  "minecraft dungeons",
+  "class",
+  "ranger",
+  "fighter",
+  "rogue",
+  "mage",
+  "warlock",
+  "weapon",
+  "armour",
+  "enchantment",
+  "boss",
+  "redstone",
+  "unique",
+  "artifact",
+  "ancient hunt",
+  "jungle",
+  "level",
+  "dungeon"
+ ],
+ "system_prompt": "You are the Minecraft Dungeons assistant.\n\nRules:\n- ALWAYS use a tool. Never guess an enchantment, artifact or boss drop.\n- Quote the 'tips' field as ordered steps.\n- Include a video link from the 'videos' field whenever one is returned.\n- Say the rarity and the stat trade-off when recommending a weapon or armour piece.",
+ "tools": [
+  {
+   "name": "dungeons_guide",
+   "description": "Look up a Minecraft Dungeons topic (getting started, classes, weapons, armour, caves/levels, bosses, redstone farming, mobs). Returns what it is and step-by-step tips. ALWAYS use this instead of guessing an enchantment or drop.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic, e.g. 'classes'"
+     }
+    }
+   },
+   "match_words": [
+    "dungeons",
+    "class",
+    "armour",
+    "armor",
+    "boss",
+    "enchantment",
+    "unique"
+   ],
+   "query": {
+    "mode": "record",
+    "collection": "entities",
+    "match": "name",
+    "params": [
+     "topic"
+    ],
+    "include": [
+     "name",
+     "kind",
+     "description",
+     "tips",
+     "difficulty"
+    ]
+   }
+  },
+  {
+   "name": "dungeons_tips",
+   "description": "Get practical step-by-step Minecraft Dungeons tips for a topic. Return the steps as a numbered list.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "tips",
+    "advice",
+    "best way",
+    "how do i",
+    "farm"
+   ],
+   "query": {
+    "mode": "search",
+    "collection": "tips",
+    "params": [
+     "topic"
+    ],
+    "fields": [
+     "topic",
+     "detail"
+    ],
+    "limit": 6
+   }
+  },
+  {
+   "name": "dungeons_videos",
+   "description": "Get YouTube guide videos for a Minecraft Dungeons topic (classes, weapons, armour, bosses, farming, uniques). ALWAYS include a video link from the 'videos' field in your answer.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "video",
+    "watch",
+    "youtube",
+    "show me"
+   ],
+   "query": {
+    "mode": "videos",
+    "params": [
+     "topic"
+    ],
+    "videos_collection": "videos",
+    "entities_collection": "entities",
+    "match": "name",
+    "video_entity_field": "entity"
+   }
+  }
+ ],
+ "ref_tabs": [
+  {
+   "id": "entities",
+   "label": "Topics",
+   "kind": "list",
+   "collection": "entities",
+   "fields": [
+    "name",
+    "kind",
+    "description",
+    "difficulty"
+   ]
+  },
+  {
+   "id": "tips",
+   "label": "Tips",
+   "kind": "list",
+   "collection": "tips",
+   "fields": [
+    "topic",
+    "detail"
+   ]
+  },
+  {
+   "id": "videos",
+   "label": "Videos",
+   "kind": "videos",
+   "collection": "videos"
+  }
+ ]
+}
